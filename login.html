@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+
+<head>
+  <title>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, iure!</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/reset.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>Welcome!</h1>
+  </header>
+  <main>
+    <form onsubmit="clean()" enctype="text/plain" class="form">
+      <h2>Please enter your information to become a member</h2>
+      <div id="wrap">
+        <ul class="data">
+          <li>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name">
+          </li>
+          <li>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email">
+          </li>
+          <li>
+            <label for="birthday">Date of Birth:</label>
+            <input id="birthday" type="date" name="birthday">
+          </li>
+          <li>
+            <label for="phone">Phone:</label>
+            <input id="phone" type="number" name="phone">
+          </li>
+          <li id="email-notification">
+            <label for="confirm">Would you like to receive our newsletter?</label>
+            <input id="confirm" type="checkbox" name="confirm">
+          </li>
+          <li id="submit-btn">
+            <input type="submit" value="Submit" onclick=thanks()>
+            <input type="reset" value="Clear" onclick="clean()">
+          </li>
+        </ul>
+      </div>
+    </form>
+    
+  </main>
+  <footer id="footer">
+    <p>2021 Elizabeth Przystal Maksym Melnyk Daniel Tiberi</p>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+
+</html>
