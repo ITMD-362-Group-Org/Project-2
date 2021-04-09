@@ -10,7 +10,8 @@ html{
 }
 
 #website-logos :hover {
-    background-color: #bcb1a8;
+    background-image: url('../images/logoclick.png');
+    margin-bottom: 25px;
 }
 
 header {
@@ -21,7 +22,6 @@ header {
     max-width: 150%;
     position: relative;
     padding-bottom: 25px;
-    float: left;
     float: left;
     padding: 20px;
 }
@@ -111,16 +111,10 @@ footer {
 }
 
 
-@media screen and (max-width:350px) {
-    
+@media screen and (max-width:800px) {   
 
-header {
-    height: 30px;
-    background-color: #2b6ca3;
-  }
-  
 .container {
-    width: 360px;
+    width: 800px;
 }
   
   #website-logos {
@@ -134,38 +128,21 @@ header {
     background-color: #bcb1a8;
 }
   
-.logo1 {
-    display: none;
-}
-  
-.logo2 {
-    height: 350px;
-    float: left;
-    padding: 40px; 
-}
-
 main {
     height: 350px;
     background-color: #fff;
     float: center;
 }
 
-.image1 {
-    display: none;
-}
-
-.image2{
-    max-width: auto;
-    position: relative;
-    float: center;
-}
-
 #nav-links {
-    display: none;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .5em;
+    font-weight: 600;
 }
 
 h4 {
-    font-size: 5%;
+    font-size: 50;
 }
 
 h5 {
@@ -175,8 +152,27 @@ h5 {
 footer {
     height: 150px;
 }
-
 }
 
+@media screen and (max-width:350px) {
+
+header {
+    height: 40px;
+    background-color: #2b6ca3;
+  }
+  
+.logo1 {
+    display: none;
+}
+
+.logo2 {
+    max-width: 5%;
+    padding-bottom: 25px;
+    float: center;
+    padding: 20px;
+}
+  
+
+}
 
 
