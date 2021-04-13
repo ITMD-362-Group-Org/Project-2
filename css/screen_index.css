@@ -99,7 +99,6 @@ footer {
 
 #left-footer {
 	float: left;
-    float: bottom;
 	width: 30%;
     padding: 40px;
 }
@@ -197,27 +196,29 @@ footer {
 }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:380px) {
+.container{
+    width: 380px;
+}
+
 body {
     height: 800px;
 }
 
 header {
-    height: 80px;
+    height: 50px;
     background-color: #2b6ca3;
   }
   
 .logo1 {
-    width: 50% 50%;
-    margin-left: 25px;
-    height: 200px;
-}
+    max-width: 75%;
+    position: relative;
+    padding-top: 60px;
+    padding-left: 40px;
+ }
 
 #website-logos {
-    max-width: 50%;
-    float: middle;
-    position: relative;
-    padding-top: 10px;
+    display: none;
 }
 
 #nav-links {
@@ -225,17 +226,28 @@ header {
 }
 
 h4 {
-    font-size: 40%;
+    font-size: 50%;
 }
 
 h5 {
-    font-size: 40%;
+    font-size: 50%;
 }
 
 footer {
     width: 100%;
-	height: 450px;
+	height: 200px;
+   }
 
+#left-footer {
+	float: left;
+	width: 25%;
+}
+
+#right-footer {
+    position: relative;
+	float: right;
+    float: bottom;
+	width: 25%;
 }
 }
 
