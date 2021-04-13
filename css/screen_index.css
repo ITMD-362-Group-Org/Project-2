@@ -222,7 +222,7 @@ header {
 }
 
 #nav-links {
-    display: none;
+    float: left;
 }
 
 h4 {
