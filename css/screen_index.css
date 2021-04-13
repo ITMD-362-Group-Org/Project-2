@@ -199,7 +199,8 @@ footer {
 
 @media screen and (max-width:380px) {
 .container{
-    width: 380px;
+    width: 100%;
+    position: relative;
 }
 
 header {
@@ -227,11 +228,11 @@ header {
 }
 
 h4 {
-    font-size: 50%;
+    font-size: 55%;
 }
 
 h5 {
-    font-size: 50%;
+    font-size: 55%;
 }
 
 article {
