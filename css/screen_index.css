@@ -71,6 +71,7 @@ main {
 }
 
 #scroll-images {
+    height: auto;
     overflow: scroll;
 }
 
@@ -161,7 +162,6 @@ article p {
 }
 
 main {
-    height: 350px;
     background-color: #fff;
     float: center;
 }
@@ -242,6 +242,8 @@ article {
 footer {
     width: 100%;
 	height: 200px;
+    float: bottom;
+    position: relative;
    }
 
 #left-footer {
