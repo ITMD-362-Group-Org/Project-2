@@ -35,8 +35,6 @@ h2 {
   border: 1px solid
 }
 
-
-
 .showing {
   opacity: 1;
   z-index: 2;
@@ -52,7 +50,6 @@ footer {
   width: 100%;
 
 }
-
 
 @media screen and (min-width: 600px) {
   #wrap {
