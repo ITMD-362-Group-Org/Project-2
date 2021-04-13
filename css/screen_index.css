@@ -202,10 +202,6 @@ footer {
     width: 380px;
 }
 
-body {
-    height: 800px;
-}
-
 header {
     height: 50px;
     background-color: #2b6ca3;
@@ -224,6 +220,10 @@ header {
 
 #nav-links {
     float: left;
+}
+
+#scroll-images {
+    height: 50%;
 }
 
 h4 {
