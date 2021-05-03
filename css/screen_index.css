@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Open Sans', san-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,700&display=swap);
+}
+
 html{
     font-family: 'Open Sans', sans-serif;
 }
@@ -37,13 +42,13 @@ header {
 }
 
 #nav-links {
-    max-width: 50%;
+    max-width: 100%;
     position: relative;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.45em;
     font-weight: 600;
     text-indent: 40px;
-    float: right;
+    float: left;
     padding: 20px;
     background-color: #5994bc;
     border: 20px #23668c;
@@ -150,7 +155,7 @@ article p {
     color: #23668c;
 }
 
-@media screen and (max-width:800px) {   
+@media screen and (max-width:780px) {   
 .container {
     width: 100%;
 }
@@ -197,7 +202,7 @@ footer {
 }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:150px) {
 .container{
     width: 100%;
     position: relative;
