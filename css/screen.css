@@ -6,12 +6,12 @@ html {
 }
 
 form {
-   background-color: #dfdce3; 
+  background-color: #dfdce3;
 }
 
 label {
   display: block;
-  
+
   text-align: center;
   text-decoration: none;
   margin-top: 1em;
@@ -41,13 +41,25 @@ h2 {
 }
 
 footer {
-  /* background: #dfdce3; */
+  /* background: #dfdce3;
   display: inline-block;
   padding: 1.5% 0% 1.5% 0%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
+  position: absolute;
+  margin: 0;
+  padding: 0;
   left: 0;
   bottom: 0;
   width: 100%;
-
+  background-color:#dfdce3;
+  color: white;
+  text-align: center;
+  
 }
 
 @media screen and (min-width: 600px) {
