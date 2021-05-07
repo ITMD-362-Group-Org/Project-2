@@ -195,8 +195,31 @@ h5 {
     color: #111;
     line-height: 2em;
 
-    
+
 }
+
+form {
+    background-color: #e1e2e1;
+}
+
+label {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+input {
+    text-align: center;
+    margin: 1%;
+}
+
+ul {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
 
 footer {
     display: flex;
@@ -226,7 +249,7 @@ footer {
 
 }
 
-article h2 {
+ h2 {
     font-size: 32px;
     font-weight: 600;
     margin: 1em;
@@ -347,6 +370,7 @@ article p {
     h5 {
         font-size: 60%;
     }
+
 
 
 }
