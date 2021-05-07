@@ -3,18 +3,18 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   console.log('DOM fully loaded and parsed');
 
+  document.getElementById('submit').onclick = function () {
+    let btns1 = document.getElementById("name").value;
 
+    if (btns1 == "") {
+      alert("No alert text has been entered!")
+      document.getElementById("name").value = ""
 
-  function clean() {
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("birthday").value = "";
-    document.getElementById("phone").value = "";
-    document.getElementById("name").focus();
-  }
+    } else {
+      alert("Thank you " + btns1  + "\nWelcome");
+      document.getElementById("name").value = ""
+    }
 
-  function thanks() {
-    window.alert("Thank you!" + "\n" + "Welcome to the community!");
-    clean();
-  }
+  };
+
 })
