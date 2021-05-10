@@ -3,10 +3,7 @@ html {
     margin: 0px;
 }
 
-body {
-    padding: 0px;
-    margin: 0px;
-}
+
 
 body {
     margin: 0;
@@ -16,7 +13,7 @@ body {
 .logo {
     float: left;
     display: flex;
-    max-height: -webkit-fill-available;
+    height: 80px;
     margin: 0% 3%
 }
 
@@ -25,7 +22,7 @@ body {
 #navigation-container {
     width: 100%;
     margin: 0 auto;
-    height: 4em;
+    height: 80px;
 }
 
 .navigation-bar {
@@ -180,6 +177,14 @@ main {
 
 }
 
+#wrap {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
 h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25em;
@@ -199,6 +204,7 @@ h5 {
 }
 
 form {
+    display: inline-block;
     background-color: #e1e2e1;
 }
 
@@ -223,6 +229,7 @@ ul {
 
 footer {
     display: flex;
+    position: relative;
     justify-content: center;
     padding: 5px;
     background-color: #8c8279;
@@ -236,7 +243,7 @@ footer {
 
 }
 
- h2 {
+h2 {
     font-size: 32px;
     font-weight: 600;
     margin: 1em;
@@ -283,7 +290,10 @@ article p {
         width: 96%;
     }
 
-
+    form {
+        display: block;
+        background-color: #e1e2e1;
+    }
 
     .logo1 {
         max-width: 60%;
@@ -358,6 +368,9 @@ article p {
         font-size: 60%;
     }
 
+    #navigation-container .img {
+        /* flex-basis: 0%; */
+    }
 
 
 }
