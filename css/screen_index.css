@@ -1,6 +1,7 @@
 html {
     padding: 0px;
     margin: 0px;
+    height: 100%;
 }
 
 
@@ -8,6 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+
 }
 
 .logo {
@@ -173,8 +175,8 @@ header {
 main {
     background-color: #e1e2e1;
     padding-top: 75px;
-    padding-bottom: 75px;
-
+    /* padding-bottom: 75px; */
+    min-height: 100vh;
 }
 
 #wrap {
@@ -233,6 +235,9 @@ footer {
     justify-content: center;
     padding: 5px;
     background-color: #8c8279;
+    margin-bottom: 0;
+    
+
 
 }
 
