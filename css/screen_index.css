@@ -1,15 +1,20 @@
+/* ~~ Font Stack ~~ */
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans);
+
+
+/*Paletton color scheme: https://paletton.com/#uid=13n0q0khZDz0uGk5xAHsiOBYJId */
+
 html {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size-adjust: 50px;
     padding: 0px;
     margin: 0px;
     height: 100%;
 }
 
-
-
 body {
     margin: 0;
     padding: 0;
-
 }
 
 .logo {
@@ -52,7 +57,7 @@ body {
 .navigation-bar li a {
     color: black;
     font-size: 1.5em;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     text-decoration: none;
     line-height: 70px;
     padding: 5px 15px;
@@ -108,8 +113,6 @@ body {
 
 #website-logos a {
     padding: 1% 5% 1% 5%;
-
-
 }
 
 
@@ -117,7 +120,6 @@ body {
 header {
     height: 150px;
 }
-
 
 .container {
     width: 100%;
@@ -128,7 +130,7 @@ header {
 #nav-links {
     max-width: 100%;
     position: relative;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 1.45em;
     font-weight: 600;
     text-indent: 40px;
@@ -188,21 +190,19 @@ main {
 }
 
 h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.25em;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.45em;
     font-weight: 600;
-    color: #111;
+    color: #fff;
     line-height: 1.5em;
 }
 
 h5 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 1em;
     font-weight: 200;
-    color: #111;
+    color: #fff;
     line-height: 2em;
-
-
 }
 
 form {
@@ -212,7 +212,6 @@ form {
 
 label {
     display: block;
-
     text-align: center;
     text-decoration: none;
     margin-top: 1em;
@@ -228,7 +227,6 @@ ul {
     margin-bottom: 1em;
 }
 
-
 footer {
     display: flex;
     position: relative;
@@ -236,16 +234,12 @@ footer {
     padding: 5px;
     background-color: #8c8279;
     margin-bottom: 0;
-    
-
-
 }
 
 
 #right-footer a {
     text-decoration: underline;
     text-decoration-color: #fff;
-
 }
 
 h2 {
@@ -305,8 +299,6 @@ article p {
         position: relative;
     }
 
-
-
     main {
         background-color: #e1e2e1;
         padding-top: 50px;
@@ -320,7 +312,6 @@ article p {
     h5 {
         font-size: 75%;
     }
-
 }
 
 @media screen and (max-width:420px) {
@@ -340,8 +331,6 @@ article p {
         padding-top: 60px;
         padding-left: 30px;
     }
-
-
 
     #nav-links {
         font-size: 80%;
@@ -376,8 +365,6 @@ article p {
     #navigation-container .img {
         /* flex-basis: 0%; */
     }
-
-
 }
 
 /*Image Slider */
@@ -500,9 +487,6 @@ article p {
 article {
     margin-top: 5em;
 }
-
-
-
 
 .splide--ttb>.splide__pagination {
     width: auto
